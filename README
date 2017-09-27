@@ -50,7 +50,7 @@ USAGE
 
 For the most part, hoptoad works for itself.  Once you've included the notifier 
 in your ApplicationController, all errors will be rescued by the 
-#rescue_action_in_public provided by the plugin.
+# rescue_action_in_public provided by the plugin.
 
 If you want to log arbitrary things which you've rescued yourself from a 
 controller, you can do something like this:
@@ -91,7 +91,7 @@ configuration block.
   end
 
 To ignore *only* certain errors (and override the defaults), use the 
-#ignore_only attribute.
+# ignore_only attribute.
 
   HoptoadNotifier.configure do |config|
     config.api_key      = '1234567890abcdef'
